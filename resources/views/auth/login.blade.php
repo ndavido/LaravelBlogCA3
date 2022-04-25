@@ -62,13 +62,14 @@
 
                     <div class="flex flex-wrap">
                         <button type="submit"
-                        class="w-full select-none font-bold whitespace-no-wrap p-3 rounded-lg text-base leading-normal no-underline text-gray-100 bg-blue-500 hover:bg-blue-700 sm:py-4">
+                        class="w-full select-none font-bold whitespace-no-wrap p-3 text-base leading-normal no-underline text-gray-100 bg-teal-500 hover:bg-blue-700 sm:py-4">
                             {{ __('Login') }}
                         </button>
 
-                    <div class="col-md-6 offset-md-3">
-                        <a href="{{ route('login.google') }}" class="btn btn-danger btn-block">Login with Google</a>
-                        <a href="{{ route('login.facebook') }}" class="btn btn-primary btn-block">Login with Facebook</a>
+                    
+                        <a href="{{ route('login.google') }}" class="w-full select-none font-bold text-center whitespace-no-wrap p-3 text-base leading-normal no-underline text-gray-100 bg-red-500 hover:bg-red-700 sm:py-4"><i class="fab fa-google"></i> Sign in with Google</a>
+                        
+                        <a href="{{ route('login.facebook') }}" class="w-full select-none font-bold text-center whitespace-no-wrap p-3 text-base leading-normal no-underline text-gray-100 bg-blue-500 hover:bg-blue-700 sm:py-4"><i class="fa-brands fa-facebook"></i> Login with Facebook</a>
                     </div>
 
                         @if (Route::has('register'))
