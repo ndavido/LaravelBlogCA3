@@ -18,20 +18,20 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="https://pbs.twimg.com/media/FPGAPdsXsB0iuo8?format=jpg&name=4096x4096" width="700" alt="">
+            <img src="https://www.formula1.com/content/dam/fom-website/sutton/2019/Spain/Saturday/1017496519-LAT-20190512-_1ST3493.jpg" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
+                Where you looking for a way to stay up to date with the current F1 season?
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+                This might just be the forum you were looking for!
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+                Catch up on missed qualificactions and races. Share you favourite moments with other.
             </p>
 
             <a 
@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <div class="text-center p-15 bg-black text-white">
+    <div class="text-center p-15 bg-red-700 text-white">
         <h2 class="text-2xl pb-5 text-l"> 
             I'm an expert in...
         </h2>
@@ -76,7 +76,7 @@
     </div>
 
     <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-yellow-700 text-gray-100 pt-10">
+        <div class="flex bg-gray-700 text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 <span class="uppercase text-xs">
                     PHP

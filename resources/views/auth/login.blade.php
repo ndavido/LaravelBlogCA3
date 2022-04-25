@@ -66,6 +66,11 @@
                             {{ __('Login') }}
                         </button>
 
+                    <div class="col-md-6 offset-md-3">
+                        <a href="{{ route('login.google') }}" class="btn btn-danger btn-block">Login with Google</a>
+                        <a href="{{ route('login.facebook') }}" class="btn btn-primary btn-block">Login with Facebook</a>
+                    </div>
+
                         @if (Route::has('register'))
                         <p class="w-full text-xs text-center text-gray-700 my-6 sm:text-sm sm:my-8">
                             {{ __("Don't have an account?") }}
