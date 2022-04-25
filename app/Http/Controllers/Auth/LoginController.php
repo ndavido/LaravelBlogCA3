@@ -64,7 +64,11 @@ class LoginController extends Controller
     public function handleFacebookCallback()
     {
         $user = Socialite::driver('facebook')->stateless()->user();
+        $this->_registerOrLoginUser($user);
+        return redirect()->route('index');
     }
+
+
     protected function _registerOrLoginUser($data)
     {
         $user = User::where('email', '=', $data->email)->first();
