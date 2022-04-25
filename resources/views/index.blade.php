@@ -23,7 +23,7 @@
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Where you looking for a way to stay up to date with the current F1 season?
+                Were you looking for a way to stay up to date with the current F1 season?
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
@@ -31,7 +31,7 @@
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Catch up on missed qualificactions and races. Share you favourite moments with other.
+                Catch up on missed qualificactions and races. Share your favourite moments with others.
             </p>
 
             <a 
