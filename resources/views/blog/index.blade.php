@@ -59,7 +59,7 @@
                 </span>
 
                 <span class="float-right">
-                     <form 
+                    <form 
                         action="/blog/{{ $post->slug }}"
                         method="POST">
                         @csrf
