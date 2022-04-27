@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Post;
+use App\Models\Standing;
 use Cviebrock\EloquentSluggable\Services\SlugService;
 
 class StandingsController extends Controller
@@ -19,8 +20,14 @@ class StandingsController extends Controller
      */
     public function index()
     {
+        $standings = Standing::all();
+        return view('standings.index', compact('standings'));
+    
+    
+
         return view('standings.index')
             ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
+            
     }
 
     /**

@@ -6,6 +6,7 @@ use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
 use App\Http\Controllers\StandingsController;
 use Illuminate\Support\Facades\Auth;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,6 +23,9 @@ Route::get('/', [PagesController::class, 'index'])->name('index');
 Route::resource('/blog', PostsController::class);
 Route::resource('/standings', StandingsController::class);
 Auth::routes();
+
+Route::get('standings', [StandingsController::class, 'index']);
+
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
