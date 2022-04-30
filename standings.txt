@@ -1,9 +1,4 @@
-
-
-
 DROP TABLE IF EXISTS `standings`;
-
-
 
 CREATE TABLE `standings` (
   `position` varchar(11) NOT NULL,
