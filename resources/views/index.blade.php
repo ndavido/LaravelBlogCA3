@@ -7,9 +7,7 @@
                 <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
                     Your area for weekly F1 Updates and Discussions!
                 </h1>
-                <a 
-                    href="/blog"
-                    class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
+                <a href="/blog" class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
                     Read More
                 </a>
             </div>
@@ -18,14 +16,15 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="https://www.formula1.com/content/dam/fom-website/sutton/2019/Spain/Saturday/1017496519-LAT-20190512-_1ST3493.jpg" width="700" alt="">
+            <img src="https://www.formula1.com/content/dam/fom-website/sutton/2019/Spain/Saturday/1017496519-LAT-20190512-_1ST3493.jpg"
+                width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
                 Were you looking for a way to stay up to date with the current F1 season?
             </h2>
-            
+
             <p class="py-8 text-gray-500 text-s">
                 This might just be the forum you were looking for!
             </p>
@@ -34,67 +33,51 @@
                 Catch up on missed qualificactions and races. Share your favourite moments with others.
             </p>
 
-            <a 
-                href="/blog"
-                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+            <a href="/blog" class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
                 Find Out More
             </a>
         </div>
     </div>
 
     <div class="text-center p-15 bg-red-700 text-white">
-        <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
+        <h2 class="text-2xl pb-5 text-l">
+            Come back weekly for :
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
-            Ux Design
+            Updates in standings
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Project Management
+            New posts regarding races
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Backend Development
+            Updates on teams
         </span>
     </div>
 
-    <div class="text-center py-15">
-        <span class="uppercase text-s text-gray-400">
-            Blog
-        </span>
-
-        <h2 class="text-4xl font-bold py-10">
-            Recent Posts
-        </h2>
-
-        <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
-        </p>
-    </div>
-
-    <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-gray-700 text-gray-100 pt-10">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-                <span class="uppercase text-xs">
-                    PHP
-                </span>
-
-                <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
-                </h3>
-
-                <a 
-                    href=""
-                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                    Find Out More
-                </a>
-            </div>
-        </div>
+    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
+            <img src="https://www.scotsman.com/webimg/b25lY21zOjZjYTYyNGViLTM4ZTUtNGJhYy05Zjc0LTM2YTIwMmNhYzg1Njo1ODc2ZjgwOS01YmIxLTQ5NzAtOTA5NC1iYmY3NDdhNTJiNGI=.jpg?width=2048&enable=upscale"
+                width="700" alt="">       
+        </div>
+
+        <div class="m-auto sm:m-auto text-left w-4/5 block">
+            <h2 class="text-3xl font-extrabold text-gray-600">
+                Dont know the current standings?
+            </h2>
+
+            <p class="py-8 text-gray-500 text-s">
+                Standing are updated after every race!
+            </p>
+
+            <p class="font-extrabold text-gray-600 text-s pb-9">
+                View a table which tell you which team is in the lead, and which driver are doing the most work.
+            </p>
+
+            <a href="/standings" class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+                Find Out More
+            </a>
         </div>
     </div>
+
 @endsection
