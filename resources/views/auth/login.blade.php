@@ -17,12 +17,12 @@
                         </div>
                         <div class="mb-6">
                             <a href="{{ route('login.google') }}"
-                                class="form-control block w-full  px-4 py-2 text-xl text-center font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"><i
+                                class="form-control block w-full hover:bg-red-300 px-4 py-2 text-xl text-center font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"><i
                                     class="fab fa-google"></i> Sign in with Google</a>
                         </div>
                         <div class="mb-6">
                             <a href="{{ route('login.facebook') }}"
-                                class="form-control block w-full px-4 py-2 text-xl text-center font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"><i
+                                class="form-control block w-full hover:bg-blue-300 px-4 py-2 text-xl text-center font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"><i
                                     class="fa-brands fa-facebook"></i> Login with Facebook</a>
                         </div>
                         <div
@@ -89,7 +89,7 @@
                             <p class="text-sm font-semibold mt-2 pt-1 mb-0">
                                 Don't have an account?
                                 <a href="{{ route('register') }}"
-                                    class="text-red-600 hover:text-red-700 focus:text-red-700 transition duration-200 ease-in-out">Register</a>
+                                    class="text-blue-600 hover:text-red-700 focus:text-red-700 transition duration-200 ease-in-out">Register</a>
                             </p>
                         </div>
                     </form>
