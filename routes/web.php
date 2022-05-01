@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\CommentsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
@@ -25,6 +26,9 @@ Route::resource('/standings', StandingsController::class);
 Auth::routes();
 
 Route::get('standings', [StandingsController::class, 'index']);
+Route::get('/posts/{post}', [PostsController::class, 'show']);
+Route::post('/posts/{post}/comments', [CommentsController::class, 'store']);
+Route::delete('/comments/{comment}', [CommentsController::class, 'destroy']); // url: /comments/1
 
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
