@@ -12,14 +12,14 @@
                         class="bg-blue-500 uppercase bg-transparent text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
                         Create post
                     </a>
+                    @if (session()->has('message'))
+                        <div class="w-4/5 m-auto mt-10 pl-2">
+                            <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4">
+                                {{ session()->get('message') }}
+                            </p>
+                        </div>
+                    @endif
                 </div>
-                @if (session()->has('message'))
-                    <div class="w-4/5 m-auto mt-10 pl-2">
-                        <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4">
-                            {{ session()->get('message') }}
-                        </p>
-                    </div>
-                @endif
             @endif
         </div>
     </div>
