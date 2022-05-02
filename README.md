@@ -1,5 +1,7 @@
+<h1 align="center">
+   F1 Blog
+</h1>
 <p align="center">
-    # F1 Blog
   <img src="https://github.com/ndavido/LaravelBlogCA3/raw/main/public/images/f1.png" alt="F1 Car">
 </p>
 
