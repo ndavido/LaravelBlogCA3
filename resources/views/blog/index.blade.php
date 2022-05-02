@@ -23,9 +23,8 @@
             @endif
         </div>
     </div>
-
-    @foreach ($posts as $post)
-        <div class="px-80 grid grid-cols-4 gap-4 flex flex-nowrap">
+    <div class="px-80 grid grid-cols-4 gap-4">
+        @foreach ($posts as $post)
             <div class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5">
                 <a href="#">
                     <img class="rounded-t-lg" src="{{ asset('images/' . $post->image_path) }}" alt="">
@@ -62,6 +61,6 @@
                     @endif
                 </div>
             </div>
-        </div>
-    @endforeach
+        @endforeach
+    </div>
 @endsection

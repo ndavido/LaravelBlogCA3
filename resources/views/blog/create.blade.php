@@ -39,7 +39,6 @@
                             <label for="text" name="title" class="block text-gray-700 text-sm font-bold mb-2 sm:mb-4">
                                 {{ __('Title') }}:
                             </label>
-
                             <input type="text" name="title" placeholder="Title..." class="form-input w-full">
                         </div>
 
