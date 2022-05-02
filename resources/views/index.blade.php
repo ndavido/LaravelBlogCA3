@@ -7,9 +7,6 @@
                 <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
                     Your area for weekly F1 Updates and Discussions!
                 </h1>
-                <a href="/blog" class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
-                    Read More
-                </a>
             </div>
         </div>
     </div>
