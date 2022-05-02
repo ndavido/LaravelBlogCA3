@@ -22,7 +22,7 @@
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
-                        <img src="images/f1.png" style="width:50%;height:50%;" alt="F1 Car">
+                        <img src="images/f1.png" style="width:50%;height:50%;" alt="F1 Blog">
                     </a>
                 </div>
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
