@@ -1,8 +1,8 @@
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ndavido/LaravelBlogCA3/raw/main/public/images/f1.png" alt="F1 Car">
+    # F1 Blog
+  <img src="https://github.com/ndavido/LaravelBlogCA3/raw/main/public/images/f1.png" alt="F1 Car">
 </p>
-![alt text](https://github.com/ndavido/LaravelBlogCA3/raw/main/public/images/f1.png "F1 Car") 
-# F1 Blog
+
 
 ```
 Server-Side Development
