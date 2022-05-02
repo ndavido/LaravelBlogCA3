@@ -1,4 +1,4 @@
-## Laravel 8 Complete Blog
+## ![alt text](https://github.com/ndavido/LaravelBlogCA3/raw/main/public/images/f1.png "F1 Car") Laravel 8 Complete Blog
 
 This repository is linked to [this youtube video](https://www.youtube.com/watch?v=HKJDLXsTr8A&t=4710s) where I show you how to create a complete blog in Laravel 8 using best practices.
 
