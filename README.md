@@ -80,7 +80,20 @@ ___
 <p align="center">
   <img src="https://github.com/ndavido/LaravelBlogCA3/raw/main/public/images/facebook_auth.png" alt="Facebook Authentication Login">
 </p>
+<h2 align="center"> Blog Posts</h2>
+<p align="center">
+  <img src="https://github.com/ndavido/LaravelBlogCA3/raw/main/public/images/blog_posts.png" alt="Facebook Authentication Login">
+</p>
+<h2 align="center">View Blog Post</h2>
+<p align="center">
+  <img src="https://github.com/ndavido/LaravelBlogCA3/raw/main/public/images/show_post.png" alt="Facebook Authentication Login">
+</p>
+<h2 align="center"> Standings Table</h2>
+<p align="center">
+  <img src="https://github.com/ndavido/LaravelBlogCA3/raw/main/public/images/standings_table.png" alt="Facebook Authentication Login">
+</p>
 ___
+
 ## Credits
 The beginner repository is linked to [this youtube video](https://www.youtube.com/watch?v=HKJDLXsTr8A&t=4710s) where I show you how to create a complete blog in Laravel 8 using best practices.
 
