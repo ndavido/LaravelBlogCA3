@@ -42,6 +42,7 @@ DB_PASSWORD={PASSWORD}
 php artisan migrate:fresh
 ```
 > Database for standings table
+> [Original Standings Table](https://www.formula1.com/en/results.html/2022/drivers.html)
 ```sql
 INSERT INTO `standings` (`position`, `driver`, `nationality`, `car`, `points`) VALUES
 ('1','Charles Leclerc','FERRARI','Monaco','86'),
