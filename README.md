@@ -10,11 +10,19 @@ Name		: Dawid Nalepa & James Rodgers
 Student ID	: D00239107    & D00237812
 Class Group	: SD2b
 ```
-Migrate the tables
+___
+## Before starting <br>
+Create a database <br>
+```
+mysql
+create database laravelblog;
+exit;
+```
+> Migrate the tables
 ```
 php artisan migrate:fresh
 ```
-### Database for standings table
+> Database for standings table
 ```sql
 INSERT INTO `standings` (`position`, `driver`, `nationality`, `car`, `points`) VALUES
 ('1','Charles Leclerc','FERRARI','Monaco','86'),
@@ -39,14 +47,8 @@ INSERT INTO `standings` (`position`, `driver`, `nationality`, `car`, `points`) V
 ('20','Nico Hulkenberg','ASTON MARTIN ARAMCO MERCEDES','Germany','0'),
 ('21','Nicholas Latifi','WILLIAMS MERCEDES','Canada','0');
 ```
+___
 
-## Before starting <br>
-Create a database <br>
-```
-mysql
-create database laravelblog;
-exit;
-```
 
 Setup your database credentials in the .env file <br>
 ```
