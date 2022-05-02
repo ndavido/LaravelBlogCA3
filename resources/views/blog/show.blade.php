@@ -68,12 +68,9 @@
                             $parts = explode(' ', $comment->author);
                             $initials = strtoupper($parts[0][0] . $parts[count($parts) - 1][0]);
                             ?>
-
                             <span class="bg-gray-300 p-3 rounded-full">{{ $initials }}</span>
                         </div>
                     </div>
-                    {{-- Avatar --}}
-
                     <div class="flex flex-col justify-center">
                         <p class="mr-2 font-bold">{{ $comment->author }}</p>
                         <p class="text-gray-600">{{ $comment->created_at->diffForHumans() }}</p>
