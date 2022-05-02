@@ -1,25 +1,36 @@
 @extends('layouts.app')
 
 @section('content')
+    <section class="h-screen">
+        <div class="px-6 h-full text-gray-800">
+            <div class="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
+                <div class="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0">
+                    <img src="{{ asset('images/' . $post->image_path) }}" alt="" class="w-100 pl-40"
+                        alt="Sample image" />
+                </div>
+                <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
 
-    <div class="w-4/5 m-auto text-left">
-        <div class="py-15">
-            <h1 class="text-4xl">
-                {{ $post->title }}
-            </h1>
+                    <!-- Title input -->
+                    <div class="mb-6">
+                        <h1 class="w-full text-4xl">{{ $post->title }}</h1>
+                        <span class="underline pt-4 text-gray-500">
+                            By <span class="font-bold  italic text-gray-800">{{ $post->user->name }}</span>, Created on
+                            {{ date('jS M Y', strtotime($post->updated_at)) }}
+                        </span>
+                    </div>
+
+                    <!-- Descirption input -->
+                    <div class="mb-6">
+                        <p
+                            class=" w-full">
+                            {{ $post->description }}</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <span class="text-gray-500">
-            By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>, Created on
-            {{ date('jS M Y', strtotime($post->updated_at)) }}
-        </span>
-    </div>
+    </section>
 
-    <div class="w-4/5 m-auto pt-2">
-        <p class="text-xl text-gray-700 pt-2 pb-2 leading-8 font-light">
-            {{ $post->description }}
-        </p>
-    </div>
-    <h2 class="mt-6 text-4xl leading-10 pt-20 tracking-tight font-bold text-gray-900 text-center">Comments</h2>
+    <h2 class="mt-6 text-4xl leading-10 pt-4 tracking-tight font-bold text-gray-900 text-center">Comments</h2>
     @if (Auth::check())
         <div class="flex mx-auto items-center justify-center shadow-lg pt-2 mt-5 mx-8 mb-4 max-w-lg">
             <form action="/posts/{{ $post->id }}/comments" method="POST"
