@@ -10,10 +10,15 @@
 Server-Side Development
 CA3 Laravel Blog
 F1 Blog
-	
-Name		: Dawid Nalepa & James Rodgers
-Student ID	: D00239107    & D00237812
-Class Group	: SD2b
+|----------------------------|	
+|Name		  : Dawid Nalepa |
+|Student ID	  : D00239107    |
+|Class Group  : SD2b         |
+|----------------------------|
+|Name		  : James Rodgers|
+|Student ID	  : D00237812    |
+|Class Group  : SD2b         |
+|----------------------------|
 ```
 ___
 ## Before starting <br>
