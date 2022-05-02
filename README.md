@@ -92,6 +92,7 @@ ___
 <p align="center">
   <img src="https://github.com/ndavido/LaravelBlogCA3/raw/main/public/images/standings_table.png" alt="Facebook Authentication Login">
 </p>
+
 ___
 
 ## Credits
