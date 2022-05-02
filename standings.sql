@@ -1,15 +1,3 @@
-DROP TABLE IF EXISTS `standings`;
-
-CREATE TABLE `standings` (
-  `position` varchar(11) NOT NULL,
-  `driver` varchar(50) NOT NULL,
-  `nationality` varchar(50) NOT NULL,
-  `car` varchar(255) NOT NULL,
-  `points` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
-
 INSERT INTO `standings` (`position`, `driver`, `nationality`, `car`, `points`) VALUES
 ('1','Charles Leclerc','FERRARI','Monaco','86'),
 ('2','Max Verstappen','RED BULL RACING HONDA','Netherlands','59'),
