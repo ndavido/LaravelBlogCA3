@@ -1,34 +1,32 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="h-screen">
-        <div class="px-6 h-full text-gray-800">
-            <div class="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
-                <div class="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0">
-                    <img src="{{ asset('images/' . $post->image_path) }}" alt="" class="w-100 pl-40"
-                        alt="Sample image" />
-                </div>
-                <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
+    <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
 
-                    <!-- Title input -->
-                    <div class="mb-6">
-                        <h1 class="w-full text-4xl">{{ $post->title }}</h1>
-                        <span class="underline pt-4 text-gray-500">
-                            By <span class="font-bold  italic text-gray-800">{{ $post->user->name }}</span>, Created on
-                            {{ date('jS M Y', strtotime($post->updated_at)) }}
-                        </span>
-                    </div>
+        <div id="profile"
+            class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
 
-                    <!-- Descirption input -->
-                    <div class="mb-6">
-                        <p
-                            class=" w-full">
-                            {{ $post->description }}</p>
-                    </div>
-                </div>
+
+            <div class="p-4 md:p-12 text-center lg:text-left">
+                <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
+                    style="background-image: url('https://source.unsplash.com/MP0IUfwrn0A')"></div>
+
+                <h1 class="text-3xl font-bold pt-8 lg:pt-0">{{ $post->title }}</h1>
+                <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
+                <p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start"><span
+                        class="font-bold  italic text-gray-800">By {{ $post->user->name }}</span>, Created on
+                    {{ date('jS M Y', strtotime($post->updated_at)) }}</p>
+                <p class="pt-8 text-sm">{{ $post->description }}</p>
+
             </div>
+
         </div>
-    </section>
+
+        <div class="w-full lg:w-2/5">
+            <img src="{{ asset('images/' . $post->image_path) }}"
+                class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
+        </div>
+    </div>
 
     <h2 class="mt-6 text-4xl leading-10 pt-4 tracking-tight font-bold text-gray-900 text-center">Comments</h2>
     @if (Auth::check())
