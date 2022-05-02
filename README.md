@@ -11,13 +11,13 @@ Server-Side Development
 CA3 Laravel Blog
 F1 Blog
 |----------------------------|	
-|Name		  : Dawid Nalepa 
-|Student ID	  : D00239107    
-|Class Group  : SD2b         
+|Name : Dawid Nalepa 
+|Student ID	: D00239107    
+|Class Group : SD2b         
 |----------------------------|
-|Name		  : James Rodgers
-|Student ID	  : D00237812    
-|Class Group  : SD2b         
+|Name : James Rodgers
+|Student ID : D00237812    
+|Class Group : SD2b         
 |----------------------------|
 ```
 ___
@@ -27,6 +27,15 @@ ___
 mysql
 create database laravelblog;
 exit;
+```
+> Setup your database credentials in the .env file <br>
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravelblog
+DB_USERNAME={USERNAME}
+DB_PASSWORD={PASSWORD}
 ```
 > Migrate the tables
 ```
@@ -59,18 +68,8 @@ INSERT INTO `standings` (`position`, `driver`, `nationality`, `car`, `points`) V
 ```
 ___
 
+The beginner repository is linked to [this youtube video](https://www.youtube.com/watch?v=HKJDLXsTr8A&t=4710s) where I show you how to create a complete blog in Laravel 8 using best practices.
 
-Setup your database credentials in the .env file <br>
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravelblog
-DB_USERNAME={USERNAME}
-DB_PASSWORD={PASSWORD}
-```
-
-
-
-## Contributing
-Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
+•	Author: Code With Dary <br>
+•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
+•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
