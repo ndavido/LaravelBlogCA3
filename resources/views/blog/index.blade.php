@@ -25,7 +25,7 @@
     </div>
 
     @foreach ($posts as $post)
-        <div class="px-80 grid grid-cols-4 gap-4 flex flex-wrap">
+        <div class="px-80 grid grid-cols-4 gap-4 flex flex-nowrap">
             <div class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5">
                 <a href="#">
                     <img class="rounded-t-lg" src="{{ asset('images/' . $post->image_path) }}" alt="">
@@ -34,7 +34,7 @@
                     <a href="#">
                         <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2">{{ $post->title }}</h5>
                     </a>
-                    <p class="font-normal text-gray-700 mb-3">{{ $post->description }}</p>
+                    <p class="font-normal text-gray-700 mb-3">Click on read me to read the post...</p>
                     <a href="/blog/{{ $post->slug }}"
                         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center"
                         href="#">
